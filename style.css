@@ -1,0 +1,107 @@
+*
+{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ body
+	{
+		image-rendering: auto;
+		border-image-slice:fill;
+	background-image: url("cyberbg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover ;
+	
+
+	background-position: center;
+	font-family: sans-serif;
+} 
+
+.main
+{
+
+	text-align:center; 
+}
+
+.main ul
+{
+	display:inline-flex;
+	list-style: none;
+	color: #fff;
+}
+#pic{
+	height:70%;
+	width: 40%;
+}
+.main ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.main ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active,.main ul li:hover
+{
+	background: #2bab0d;
+	border-radius:3px; 
+}
+.sub-menu-1  
+{
+	display: none;
+
+}
+.main ul li:hover .sub-menu-1 
+{
+	display:block; 
+	position: absolute;
+	background:rgb(0,100,0); 
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+.main ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.main ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding:10px;
+	border-bottom: 1px dotted;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+main ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+main ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+.section{
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+.about{
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 150px;
+	color: yellow
+	;
+}
+
+button{
+	background-color:yellow;
+	border-radius: 10%;
+}
