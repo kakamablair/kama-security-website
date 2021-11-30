@@ -90,18 +90,24 @@ main ul li:hover .sub-menu-1 ul li a:hover
 .section{
 	text-align: left;
 	margin-left: 100px;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .about{
 	text-align: left;
 	margin-left: 100px;
-	margin-top: 150px;
+	margin-top: 120px;
 	color: yellow
 	;
 }
 
+
 button{
 	background-color:yellow;
 	border-radius: 10%;
+}
+
+p{
+	color: #fff;
+
 }
